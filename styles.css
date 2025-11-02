@@ -1,2 +1,25 @@
+.holder {
+  display: flex;                  /* Enable flexbox */
+  justify-content: space-between; /* Space between items, edges touch screen */
+  flex-wrap: wrap;                /* Allow items to move to next row */
+  align-items: center;            /* Align items vertically in the center */
+  width: 100vw;                   /* Full width of the viewport */
+  min-height: 100vh;              /* Optional: take full height */
+  box-sizing: border-box;         /* Prevent overflow from padding */
+  padding: 10px;                  /* Add slight inner spacing (optional) */
+}
+
+.item {
+  flex: 0 1 auto;                 /* Prevent squashing, allow wrapping */
+  width: 100px;                   /* Example width for items */
+  height: 100px;                  /* Example height for items */
+  background-color: tomato;       /* Just for visibility */
+  margin: 10px 0;                 /* Vertical spacing */
+  text-align: center;             /* Center text horizontally */
+  line-height: 100px;             /* Center text vertically */
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;             /* Optional style */
+}
 
 /* Your CSS Code here. */
